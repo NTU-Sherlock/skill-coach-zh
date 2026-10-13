@@ -1,0 +1,4 @@
+interface:
+  display_name: "打造 skill 教練"
+  short_description: "一步步陪你把生活裡重複的事做成自己的技能"
+  default_prompt: "用 $skill-coach 開始練習"
