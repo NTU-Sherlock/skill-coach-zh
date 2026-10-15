@@ -59,3 +59,7 @@
 ## 授權
 
 CC BY-NC 4.0，見 [LICENSE](LICENSE)。可自由使用與修改，不可商業使用。
+
+## 把重點做成 HTML 簡報
+
+新增的 [html-presentation 技能](html-presentation/) 能把會議紀錄或重點做成五頁內、可離線播放的單一 HTML 簡報，支援全螢幕、方向鍵換頁與瀏覽器列印成 PDF；使用系統中文字體，不需安裝 Python 或外部套件。把這句貼給 Codex：「請用 skill-installer 安裝 https://github.com/NTU-Sherlock/skill-coach-zh/tree/main/html-presentation 到目前專案的 .agents/skills，裝好後確認 SKILL.md 存在。」下一個回合說：「用 $html-presentation 把這份重點做成五頁內的簡報。」若安裝程式無法執行，下載本 repo 的 ZIP，請 Codex 把其中 `html-presentation` 整個資料夾放入專案的 `.agents/skills/`；Windows 對應路徑是 `.agents\skills\html-presentation\SKILL.md`。開新聊天即可叫用。HTML 用 Chrome 或 Edge 開啟，按「存成 PDF」後選另存為 PDF、橫向、關閉頁首與頁尾並開啟背景圖形。技能沿用 CC BY-NC 4.0 授權。
